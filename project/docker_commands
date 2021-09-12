@@ -7,6 +7,17 @@ docker run -d -p 7111:3111 techtrends
 ## Docker commands used to get the application logs
 docker logs techtrends
 
+## Tagging the Docker image
+docker tag techtrends sharsha315/techtrends:v1.0.0
+
+## Push the image to DockerHub
+docker push sharsha315/techtrends:v1.0.0
+
+## Using Windows 7 for this project, not able to test locally on http://127.0.0.1:7111
+## used below command to retrieve the ip and used with port 7111, 
+## successfully tested locally, http://192.168.99.100:7111
+docker-machine ip
+
 ## Logs from the container running the TechTrends application
 * Serving Flask app "app" (lazy loading)
 
