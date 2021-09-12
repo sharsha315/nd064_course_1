@@ -1,6 +1,6 @@
 # TechTreds Web Application
 
-This is a Flask application that lists the latest articles within the cloud-native ecosystem. Create Docker image and publish it to DockerHub registry.
+This is a Flask application that lists the latest articles within the cloud-native ecosystem. Create Docker image and publish it to DockerHub registry. Test CI Fundamentals - GitHub Actions.
 
 ## Run 
 
