@@ -34,5 +34,3 @@ jobs:
          platforms: linux/amd64
          push: true
          tags: sharsha315/techtrends:latest
-	
-
